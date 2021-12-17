@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Practos</name>
+    </assembly>
+    <members>
+        <member name="M:Practos.Controllers.WeatherForecastController.GetWeatherForecasts">
+            <summary>
+            Чтение всей записей
+            </summary>
+        </member>
+        <member name="M:Practos.Controllers.WeatherForecastController.Post(System.String)">
+            <summary>
+            Ввод
+            </summary>
+        </member>
+        <member name="M:Practos.Controllers.WeatherForecastController.Get(System.Guid)">
+            <summary>
+            Чтение по ID
+            </summary>
+        </member>
+        <member name="M:Practos.Controllers.WeatherForecastController.Delete(System.Guid)">
+            <summary>
+            Удаление по ID
+            </summary>
+        </member>
+        <member name="P:Practos.WeatherForecast.Id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:Practos.WeatherForecast.Name">
+            <summary>
+            Наименование
+            </summary>
+        </member>
+        <member name="P:Practos.WeatherForecast.Date">
+            <summary>
+            Дата выпуска
+            </summary>
+        </member>
+    </members>
+</doc>

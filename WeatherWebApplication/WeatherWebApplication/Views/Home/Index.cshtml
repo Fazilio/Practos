@@ -1,0 +1,10 @@
+﻿@model WeatherWebApplication.Models.OpenWeatherModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a> href="https://docs.microsoft.com/aspnet/core%22%3Ebuilding Web apps with ASP.NET Core </a>.</p>
+    <h4>Погода в Санкт-Петербурге @Model.main.temp °C</h4>
+</div>
